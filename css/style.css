@@ -1,36 +1,79 @@
-body
+/* 
+1. Body 
+==================
+Set body element font-size to 14px by default.
+*/
+body {
   font-size: 14px;
 }
 
+/* 
+2. Navigation 
+==================
+Set navigation to span the entire window width and background-color to yellow.
+*/
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
+}
 
-
+/* 
+3. Section
+==================
+Set section width to 60% of the screen width.
+*/
 section {
   margin: 0 auto;
   width: 60%;
 }
 
+/* 
+4. Headings  
+==================
+Set all heading styles here.
+*/
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
 }
 
 .example, h3 {
   padding-top: 30px;
-  text-align center
+  text-align: center;
 }
 
 h3 {
   font-size: 1.3em;
 }
 
+/* 
+5. Element 
+==================
+Set div element styles here.
+*/
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+
+/* 
+6. Colors 
+==================
+Set colors in a modular manner here.
+*/
+.blue {
+  background-color: #00bde7;
+}
+
+.tomato {
+  background-color: #ff6347;
+}
+
+.violet {
+  background-color: #cb99c9;
+}
